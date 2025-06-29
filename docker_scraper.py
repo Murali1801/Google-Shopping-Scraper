@@ -148,13 +148,13 @@ class GoogleShoppingScraper:
                 print(f"🔄 Typing new query in search bar: {query}")
                 try:
                     # Use the <textarea.gLFyf> as the search bar after the first query
-                    search_box = WebDriverWait(self.driver, 10).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, 'textarea.gLFyf'))
-                    )
-                    search_box.clear()
-                    self.simulate_typing(search_box, query)
+                    search_bar = find_search_bar(self.driver)
+                    if not search_bar:
+                        raise Exception("Could not find search bar")
+                    search_bar.clear()
+                    self.simulate_typing(search_bar, query)
                     self.human_like_delay(1, 2)
-                    search_box.send_keys(Keys.RETURN)
+                    search_bar.send_keys(Keys.RETURN)
                     self.human_like_delay(3, 6)
                 except Exception as e:
                     print(f"⚠️ Could not find or use search bar for new query: {e}")
