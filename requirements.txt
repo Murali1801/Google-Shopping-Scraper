@@ -5,4 +5,5 @@ lxml==4.9.3
 python-dotenv==1.0.0
 webdriver-manager==4.0.1
 fake-useragent==1.4.0
-undetected-chromedriver==3.5.4 
+undetected-chromedriver==3.5.4
+Flask 

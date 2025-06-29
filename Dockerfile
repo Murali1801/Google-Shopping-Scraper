@@ -104,4 +104,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD python -c "import requests; requests.get('http://localhost:8080/health', timeout=5)" || exit 1
 
 # Default command with Xvfb for virtual display
-CMD ["sh", "-c", "Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 & python docker_scraper.py"] 
+CMD ["python", "app.py"] 

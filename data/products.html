@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Shopping Scraped Products</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 32px;
+            color: #222;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 32px;
+        }
+        .product-card {
+            background: #fafbfc;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            padding: 24px 18px 18px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: box-shadow 0.2s, transform 0.2s;
+            min-height: 420px;
+        }
+        .product-card:hover {
+            box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+            transform: translateY(-4px) scale(1.02);
+        }
+        .product-card img {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            border-radius: 8px;
+            background: #f0f0f0;
+            margin-bottom: 18px;
+        }
+        .product-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #222;
+            text-align: center;
+            margin-bottom: 10px;
+            min-height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .product-price {
+            font-size: 1.15rem;
+            color: #1a8917;
+            font-weight: 500;
+            margin-bottom: 18px;
+        }
+        .buy-btn {
+            display: inline-block;
+            padding: 10px 28px;
+            background: linear-gradient(90deg, #1a8917 60%, #0f5132 100%);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 600;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(26,137,23,0.08);
+            transition: background 0.2s, box-shadow 0.2s;
+        }
+        .buy-btn:hover {
+            background: linear-gradient(90deg, #0f5132 60%, #1a8917 100%);
+            box-shadow: 0 4px 16px rgba(26,137,23,0.18);
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 8px;
+            }
+            .product-card {
+                padding: 14px 6px 12px 6px;
+                min-height: 340px;
+            }
+            .product-card img {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Scraped Google Shopping Products</h1>
+        <div class="grid" id="products-grid">
+            <!-- Products will be injected here -->
+        </div>
+    </div>
+    <script>
+        async function loadProducts() {
+            const response = await fetch('scraped_results.json');
+            const data = await response.json();
+            // Group keys by product (prefix before last underscore + result number)
+            const productMap = {};
+            Object.keys(data).forEach(key => {
+                const match = key.match(/(.+_search_engine_query_result\d+)_([a-z_]+)/);
+                if (match) {
+                    const prefix = match[1];
+                    const field = match[2];
+                    if (!productMap[prefix]) productMap[prefix] = {};
+                    productMap[prefix][field] = data[key];
+                }
+            });
+            const products = Object.values(productMap);
+            const grid = document.getElementById('products-grid');
+            grid.innerHTML = '';
+            if (products.length === 0) {
+                grid.innerHTML = '<p>No products found.</p>';
+                return;
+            }
+            products.forEach(product => {
+                // Fallbacks for missing fields
+                const title = product.title || 'No title';
+                const image = product.image_url || '';
+                const price = product.price || '';
+                const buyUrl = product.buy_now_url || product.url || '#';
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.innerHTML = `
+                    <img src="${image}" alt="${title}" onerror="this.src='https://via.placeholder.com/200x200?text=No+Image'">
+                    <div class="product-title">${title}</div>
+                    <div class="product-price">${price}</div>
+                    <a class="buy-btn" href="${buyUrl}" target="_blank" rel="noopener">Buy Now</a>
+                `;
+                grid.appendChild(card);
+            });
+        }
+        loadProducts();
+    </script>
+</body>
+</html> 

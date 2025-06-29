@@ -1,0 +1,2818 @@
+2025-06-29 15:16:03 🚀 Starting Google Shopping Scraper with Undetected Chrome
+2025-06-29 15:16:03 📋 Queries to scrape: ['top_wear', 'bottom_wear', 'shoes', 'color_recommendations']
+2025-06-29 15:16:04 ✅ Undetected Chrome WebDriver setup successful
+2025-06-29 15:16:04 ⏳ Initial setup delay...
+2025-06-29 15:16:04 ⏱️ Waiting 9.0 seconds...
+2025-06-29 15:16:13 
+2025-06-29 15:16:13 🎯 Scraping category: top_wear
+2025-06-29 15:16:13 🔍 Query: vertical striped shirts for men
+2025-06-29 15:16:13 🌐 Navigating directly to Google Shopping page...
+2025-06-29 15:16:17 ⏱️ Waiting 8.5 seconds...
+2025-06-29 15:16:26 📄 Page title: vertical striped shirts for men - Google Shopping
+2025-06-29 15:16:26 📄 Current URL: https://www.google.com/search?hl=en&gl=in&q=vertical+striped+shirts+for+men&udm=28&sei=cQthaOWFDYDg2roPyaLP4QQ
+2025-06-29 15:16:26 ⏱️ Waiting 3.6 seconds...
+2025-06-29 15:16:38 📜 Random scrolling performed
+2025-06-29 15:16:38 ⏳ Waiting before extraction...
+2025-06-29 15:16:38 ⏱️ Waiting 5.9 seconds...
+2025-06-29 15:16:44 ✅ Using product card selector: li.YBo8bb
+2025-06-29 15:16:44 📊 Found 40 product cards for top_wear
+2025-06-29 15:16:45 🖱️ Clicked product card 1
+2025-06-29 15:16:45 ✅ Sidebar appeared for product 1
+2025-06-29 15:16:46 [Extract] Title not found with selector div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:46 Stacktrace:
+2025-06-29 15:16:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:46 
+2025-06-29 15:16:47 [Extract] Title not found with selector div[data-attrid="product_title"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Title not found with selector div.yYfJGb.QiH9gc.vwnbWb: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Image URL not found with selector img.KfAt4d[jsname="figiqf"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Image URL not found with selector img.FsH7wb.wtYWhc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:47   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:47 Stacktrace:
+2025-06-29 15:16:47 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:47 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:47 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:47 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:47 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:47 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:47 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:47 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:47 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:47 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:47 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:47 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:47 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:47 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:47 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:47 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:47 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:47 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:47 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:47 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:47 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:47 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:47 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:47 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:47 
+2025-06-29 15:16:47 ❌ Skipping: missing one or more required fields: {'title': '', 'image_url': '', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:16:47 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:16:50 🖱️ Clicked product card 2
+2025-06-29 15:16:50 ✅ Sidebar appeared for product 2
+2025-06-29 15:16:50 [Extract] Title: 'Snitch Black Classic Vertical Striped Casual Shirt by Myntra' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:16:50 [Extract] Image URL: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRj4r8H_dvV8fZeFHlQ84TXGrUExbKQ7G3_7Qe43bSWckTSoVXUYsMbPsxOEEF8Q8xflX850dnSAR_9olOtyzcLy-EEbq1gnBKsQ9yziUN2b14dPmLS5lxu' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:16:51 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:51   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:51 Stacktrace:
+2025-06-29 15:16:51 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:51 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:51 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:51 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:51 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:51 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:51 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:51 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:51 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:51 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:51 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:51 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:51 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:51 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:51 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:51 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:51 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:51 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:51 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:51 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:51 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:51 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:51 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:51 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:51 
+2025-06-29 15:16:51 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:51   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:51 Stacktrace:
+2025-06-29 15:16:51 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:51 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:51 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:51 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:51 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:51 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:51 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:51 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:51 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:51 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:51 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:51 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:51 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:51 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:51 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:51 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:51 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:51 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:51 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:51 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:51 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:51 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:51 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:51 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:51 
+2025-06-29 15:16:51 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:51   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:51 Stacktrace:
+2025-06-29 15:16:51 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:51 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:51 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:51 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:51 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:51 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:51 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:51 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:51 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:51 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:51 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:51 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:51 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:51 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:51 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:51 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:51 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:51 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:51 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:51 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:51 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:51 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:51 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:51 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:51 
+2025-06-29 15:16:51 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:51   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:51 Stacktrace:
+2025-06-29 15:16:51 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:51 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:51 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:51 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:51 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:51 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:51 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:51 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:51 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:51 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:51 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:51 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:51 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:51 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:51 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:51 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:51 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:51 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:51 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:51 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:51 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:51 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:51 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:51 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:51 
+2025-06-29 15:16:51 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:51   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:51 Stacktrace:
+2025-06-29 15:16:51 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:51 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:51 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:51 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:51 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:51 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:51 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:51 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:51 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:51 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:51 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:51 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:51 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:51 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:51 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:51 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:51 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:51 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:51 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:51 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:51 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:51 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:51 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:51 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:51 
+2025-06-29 15:16:51 ❌ Skipping: missing one or more required fields: {'title': 'Snitch Black Classic Vertical Striped Casual Shirt by Myntra', 'image_url': 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRj4r8H_dvV8fZeFHlQ84TXGrUExbKQ7G3_7Qe43bSWckTSoVXUYsMbPsxOEEF8Q8xflX850dnSAR_9olOtyzcLy-EEbq1gnBKsQ9yziUN2b14dPmLS5lxu', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:16:51 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:16:54 🖱️ Clicked product card 3
+2025-06-29 15:16:54 ✅ Sidebar appeared for product 3
+2025-06-29 15:16:54 [Extract] Title: 'HERE&NOW Slim Fit Vertical Striped Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:16:54 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTWs_DRWjdTHgwONm4zvQlaxc3xNxZIKsfId9EqzUm7mZiglIPGFT9dGTGkqmUxkgTgw2-7rsRnisYWpmnB4739LqznVEZBSLXzZEQ9m_AB' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:16:55 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:55   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:55 Stacktrace:
+2025-06-29 15:16:55 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:55 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:55 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:55 #3 0x5a7ee93a22c7 <unknown>
+2025-06-29 15:16:55 #4 0x5a7ee9436fde <unknown>
+2025-06-29 15:16:55 #5 0x5a7ee94101a2 <unknown>
+2025-06-29 15:16:55 #6 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:55 #7 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:55 #8 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:55 #9 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:55 #10 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:55 #11 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:55 #12 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:55 #13 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:55 #14 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:55 #15 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:55 #16 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:55 #17 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:55 #18 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:55 
+2025-06-29 15:16:55 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:55   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:55 Stacktrace:
+2025-06-29 15:16:55 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:55 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:55 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:55 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:55 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:55 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:55 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:55 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:55 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:55 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:55 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:55 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:55 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:55 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:55 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:55 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:55 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:55 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:55 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:55 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:55 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:55 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:55 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:55 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:55 
+2025-06-29 15:16:55 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:55   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:55 Stacktrace:
+2025-06-29 15:16:55 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:55 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:55 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:55 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:55 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:55 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:55 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:55 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:55 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:55 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:55 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:55 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:55 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:55 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:55 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:55 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:55 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:55 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:55 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:55 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:55 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:55 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:55 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:55 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:55 
+2025-06-29 15:16:55 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:55   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:55 Stacktrace:
+2025-06-29 15:16:55 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:55 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:55 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:55 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:55 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:55 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:55 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:55 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:55 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:55 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:55 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:55 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:55 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:55 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:55 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:55 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:55 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:55 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:55 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:55 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:55 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:55 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:55 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:55 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:55 
+2025-06-29 15:16:55 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:55   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:55 Stacktrace:
+2025-06-29 15:16:55 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:55 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:55 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:55 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:55 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:55 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:55 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:55 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:55 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:55 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:55 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:55 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:55 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:55 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:55 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:55 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:55 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:55 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:55 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:55 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:55 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:55 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:55 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:55 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:55 
+2025-06-29 15:16:55 ❌ Skipping: missing one or more required fields: {'title': 'HERE&NOW Slim Fit Vertical Striped Casual Shirt', 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTWs_DRWjdTHgwONm4zvQlaxc3xNxZIKsfId9EqzUm7mZiglIPGFT9dGTGkqmUxkgTgw2-7rsRnisYWpmnB4739LqznVEZBSLXzZEQ9m_AB', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:16:55 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:16:57 🖱️ Clicked product card 4
+2025-06-29 15:16:57 ✅ Sidebar appeared for product 4
+2025-06-29 15:16:57 [Extract] Title: 'MEN VERTICAL STRIPED REGULAR FIT KHADEE-COTTON CASUAL/FORMAL SHIRT' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:16:57 [Extract] Image URL: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsIej6aOzoO5oOKuEtb67pa8JTBO5-MYum2xmDV9TAFnY5zlAoTNYUCKiP5JhSAOpaL1K62B799aJttFwAn-CCKUQKj1jJuLRUrjDik6qUomBtFGNOi9Z4' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:16:58 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:58   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:58 Stacktrace:
+2025-06-29 15:16:58 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:58 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:58 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:58 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:58 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:58 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:58 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:58 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:58 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:58 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:58 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:58 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:58 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:58 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:58 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:58 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:58 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:58 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:58 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:58 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:58 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:58 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:58 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:58 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:58 
+2025-06-29 15:16:58 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:58   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:58 Stacktrace:
+2025-06-29 15:16:58 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:58 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:58 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:58 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:58 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:58 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:58 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:58 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:58 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:58 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:58 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:58 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:58 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:58 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:58 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:58 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:58 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:58 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:58 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:58 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:58 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:58 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:58 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:58 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:58 
+2025-06-29 15:16:58 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:58   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:58 Stacktrace:
+2025-06-29 15:16:58 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:58 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:58 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:58 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:58 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:58 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:58 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:58 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:58 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:58 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:58 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:58 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:58 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:58 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:58 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:58 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:58 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:58 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:58 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:58 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:58 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:58 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:58 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:58 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:58 
+2025-06-29 15:16:58 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:58   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:58 Stacktrace:
+2025-06-29 15:16:58 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:58 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:58 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:58 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:58 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:58 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:58 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:58 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:58 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:58 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:58 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:58 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:58 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:58 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:58 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:58 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:58 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:58 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:58 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:58 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:58 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:58 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:58 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:58 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:58 
+2025-06-29 15:16:58 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:16:58   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:16:58 Stacktrace:
+2025-06-29 15:16:58 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:16:58 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:16:58 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:16:58 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:16:58 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:16:58 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:16:58 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:16:58 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:16:58 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:16:58 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:16:58 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:16:58 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:16:58 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:16:58 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:16:58 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:16:58 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:16:58 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:16:58 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:16:58 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:16:58 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:16:58 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:16:58 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:16:58 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:16:58 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:16:58 
+2025-06-29 15:16:58 ❌ Skipping: missing one or more required fields: {'title': 'MEN VERTICAL STRIPED REGULAR FIT KHADEE-COTTON CASUAL/FORMAL SHIRT', 'image_url': 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSsIej6aOzoO5oOKuEtb67pa8JTBO5-MYum2xmDV9TAFnY5zlAoTNYUCKiP5JhSAOpaL1K62B799aJttFwAn-CCKUQKj1jJuLRUrjDik6qUomBtFGNOi9Z4', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:16:58 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:01 🖱️ Clicked product card 5
+2025-06-29 15:17:01 ✅ Sidebar appeared for product 5
+2025-06-29 15:17:01 [Extract] Title: 'The Bear House Men's Striped Slim Fit Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:01 [Extract] Image URL not found with selector img.KfAt4d[jsname="figiqf"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:01   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:01 Stacktrace:
+2025-06-29 15:17:01 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:01 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:01 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:01 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:01 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:01 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:01 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:01 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:01 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:01 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:01 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:01 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:01 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:01 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:01 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:01 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:01 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:01 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:01 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:01 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:01 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:01 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:01 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:01 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:01 
+2025-06-29 15:17:02 [Extract] Image URL not found with selector img.FsH7wb.wtYWhc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:02   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:02 Stacktrace:
+2025-06-29 15:17:02 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:02 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:02 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:02 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:02 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:02 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:02 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:02 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:02 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:02 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:02 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:02 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:02 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:02 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:02 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:02 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:02 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:02 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:02 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:02 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:02 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:02 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:02 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:02 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:02 
+2025-06-29 15:17:02 ❌ Skipping: missing one or more required fields: {'title': "The Bear House Men's Striped Slim Fit Shirt", 'image_url': '', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:02 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:04 🖱️ Clicked product card 6
+2025-06-29 15:17:04 ✅ Sidebar appeared for product 6
+2025-06-29 15:17:05 [Extract] Title: 'DENNISON Men's Vertical Stripes Spread Collar Oversized Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:05 [Extract] Image URL not found with selector img.KfAt4d[jsname="figiqf"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a22c7 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee9436fde <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee94101a2 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #18 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Image URL not found with selector img.FsH7wb.wtYWhc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:05   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:05 Stacktrace:
+2025-06-29 15:17:05 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:05 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:05 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:05 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:05 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:05 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:05 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:05 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:05 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:05 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:05 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:05 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:05 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:05 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:05 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:05 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:05 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:05 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:05 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:05 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:05 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:05 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:05 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:05 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:05 
+2025-06-29 15:17:05 ❌ Skipping: missing one or more required fields: {'title': "DENNISON Men's Vertical Stripes Spread Collar Oversized Shirt", 'image_url': '', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:05 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:08 🖱️ Clicked product card 7
+2025-06-29 15:17:08 ✅ Sidebar appeared for product 7
+2025-06-29 15:17:08 [Extract] Title: 'The Souled Store Men's Vertical Striped Spread Collar Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:08 [Extract] Image URL not found with selector img.KfAt4d[jsname="figiqf"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:08   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:08 Stacktrace:
+2025-06-29 15:17:08 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:08 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:08 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:08 #3 0x5a7ee93a22c7 <unknown>
+2025-06-29 15:17:08 #4 0x5a7ee9436fde <unknown>
+2025-06-29 15:17:08 #5 0x5a7ee94101a2 <unknown>
+2025-06-29 15:17:08 #6 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:08 #7 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:08 #8 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:08 #9 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:08 #10 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:08 #11 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:08 #12 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:08 #13 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:08 #14 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:08 #15 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:08 #16 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:08 #17 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:08 #18 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:08 
+2025-06-29 15:17:09 [Extract] Image URL not found with selector img.FsH7wb.wtYWhc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:09   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:09 Stacktrace:
+2025-06-29 15:17:09 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:09 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:09 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:09 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:09 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:09 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:09 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:09 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:09 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:09 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:09 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:09 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:09 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:09 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:09 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:09 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:09 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:09 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:09 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:09 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:09 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:09 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:09 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:09 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:09 
+2025-06-29 15:17:09 ❌ Skipping: missing one or more required fields: {'title': "The Souled Store Men's Vertical Striped Spread Collar Casual Shirt", 'image_url': '', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:09 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:11 🖱️ Clicked product card 8
+2025-06-29 15:17:11 ✅ Sidebar appeared for product 8
+2025-06-29 15:17:11 [Extract] Title: 'Myntra Men's Cuban Collar Vertical Striped Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:11 [Extract] Image URL: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRJPjinmYXDFYlPOxUXyBMio7QBYPcrYjfZxy4seHB_2hBHlW5_xm1nyUnpLlZyFDUf7aE4vbXJaz8kCg_m70oQXaQo7lrOhkYVlbpOcH9C' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:12 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:12   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:12 Stacktrace:
+2025-06-29 15:17:12 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:12 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:12 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:12 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:12 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:12 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:12 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:12 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:12 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:12 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:12 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:12 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:12 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:12 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:12 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:12 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:12 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:12 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:12 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:12 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:12 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:12 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:12 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:12 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:12 
+2025-06-29 15:17:12 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:12   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:12 Stacktrace:
+2025-06-29 15:17:12 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:12 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:12 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:12 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:12 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:12 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:12 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:12 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:12 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:12 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:12 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:12 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:12 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:12 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:12 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:12 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:12 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:12 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:12 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:12 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:12 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:12 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:12 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:12 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:12 
+2025-06-29 15:17:12 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:12   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:12 Stacktrace:
+2025-06-29 15:17:12 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:12 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:12 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:12 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:12 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:12 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:12 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:12 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:12 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:12 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:12 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:12 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:12 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:12 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:12 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:12 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:12 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:12 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:12 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:12 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:12 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:12 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:12 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:12 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:12 
+2025-06-29 15:17:12 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:12   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:12 Stacktrace:
+2025-06-29 15:17:12 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:12 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:12 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:12 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:12 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:12 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:12 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:12 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:12 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:12 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:12 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:12 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:12 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:12 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:12 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:12 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:12 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:12 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:12 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:12 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:12 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:12 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:12 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:12 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:12 
+2025-06-29 15:17:12 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:12   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:12 Stacktrace:
+2025-06-29 15:17:12 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:12 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:12 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:12 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:12 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:12 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:12 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:12 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:12 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:12 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:12 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:12 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:12 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:12 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:12 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:12 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:12 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:12 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:12 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:12 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:12 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:12 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:12 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:12 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:12 
+2025-06-29 15:17:12 ❌ Skipping: missing one or more required fields: {'title': "Myntra Men's Cuban Collar Vertical Striped Casual Shirt", 'image_url': 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRJPjinmYXDFYlPOxUXyBMio7QBYPcrYjfZxy4seHB_2hBHlW5_xm1nyUnpLlZyFDUf7aE4vbXJaz8kCg_m70oQXaQo7lrOhkYVlbpOcH9C', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:12 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:15 🖱️ Clicked product card 9
+2025-06-29 15:17:15 ✅ Sidebar appeared for product 9
+2025-06-29 15:17:15 [Extract] Title: 'Powerlook Men's Vertical Stripes Striped Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:15 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRfgaNPTfKhxW0Nvw9SASUWVgnOzEZv62vbUso-JknQp7kSZbgGiI56yCxlihhq1mZ1eVhgMEa3oDcPCQTVXUQHOARgLmqS2zSFz5gnmph9cHOBdvEmG1Ab' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:16 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:16   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:16 Stacktrace:
+2025-06-29 15:17:16 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:16 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:16 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:16 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:16 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:16 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:16 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:16 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:16 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:16 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:16 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:16 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:16 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:16 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:16 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:16 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:16 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:16 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:16 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:16 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:16 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:16 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:16 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:16 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:16 
+2025-06-29 15:17:16 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:16   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:16 Stacktrace:
+2025-06-29 15:17:16 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:16 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:16 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:16 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:16 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:16 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:16 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:16 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:16 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:16 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:16 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:16 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:16 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:16 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:16 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:16 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:16 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:16 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:16 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:16 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:16 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:16 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:16 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:16 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:16 
+2025-06-29 15:17:16 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:16   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:16 Stacktrace:
+2025-06-29 15:17:16 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:16 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:16 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:16 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:16 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:16 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:16 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:16 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:16 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:16 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:16 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:16 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:16 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:16 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:16 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:16 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:16 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:16 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:16 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:16 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:16 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:16 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:16 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:16 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:16 
+2025-06-29 15:17:16 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:16   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:16 Stacktrace:
+2025-06-29 15:17:16 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:16 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:16 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:16 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:16 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:16 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:16 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:16 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:16 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:16 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:16 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:16 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:16 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:16 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:16 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:16 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:16 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:16 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:16 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:16 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:16 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:16 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:16 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:16 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:16 
+2025-06-29 15:17:16 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:16   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:16 Stacktrace:
+2025-06-29 15:17:16 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:16 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:16 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:16 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:16 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:16 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:16 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:16 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:16 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:16 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:16 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:16 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:16 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:16 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:16 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:16 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:16 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:16 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:16 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:16 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:16 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:16 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:16 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:16 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:16 
+2025-06-29 15:17:16 ❌ Skipping: missing one or more required fields: {'title': "Powerlook Men's Vertical Stripes Striped Casual Shirt", 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRfgaNPTfKhxW0Nvw9SASUWVgnOzEZv62vbUso-JknQp7kSZbgGiI56yCxlihhq1mZ1eVhgMEa3oDcPCQTVXUQHOARgLmqS2zSFz5gnmph9cHOBdvEmG1Ab', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:16 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:18 🖱️ Clicked product card 10
+2025-06-29 15:17:19 ✅ Sidebar appeared for product 10
+2025-06-29 15:17:19 [Extract] Title: 'U.S. Polo Assn. Men's Striped Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:19 [Extract] Image URL: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR0jajzemIi-JGdZsXQv_3RiVs5hiZFwOpjlrKb27SxCHe1739YtB8IK9sofhQMTQ1y0OpLgfDxBt1wVcYeOgA2k--3VnTjz3rLbvVJoOlqvdudN_nXoIUR' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:19 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:19   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:19 Stacktrace:
+2025-06-29 15:17:19 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:19 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:19 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:19 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:19 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:19 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:19 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:19 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:19 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:19 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:19 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:19 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:19 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:19 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:19 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:19 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:19 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:19 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:19 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:19 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:19 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:19 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:19 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:19 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:19 
+2025-06-29 15:17:19 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:19   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:19 Stacktrace:
+2025-06-29 15:17:19 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:19 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:19 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:19 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:19 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:19 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:19 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:19 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:19 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:19 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:19 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:19 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:19 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:19 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:19 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:19 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:19 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:19 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:19 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:19 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:19 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:19 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:19 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:19 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:19 
+2025-06-29 15:17:20 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:20   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:20 Stacktrace:
+2025-06-29 15:17:20 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:20 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:20 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:20 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:20 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:20 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:20 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:20 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:20 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:20 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:20 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:20 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:20 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:20 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:20 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:20 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:20 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:20 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:20 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:20 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:20 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:20 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:20 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:20 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:20 
+2025-06-29 15:17:20 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:20   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:20 Stacktrace:
+2025-06-29 15:17:20 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:20 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:20 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:20 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:20 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:20 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:20 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:20 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:20 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:20 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:20 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:20 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:20 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:20 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:20 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:20 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:20 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:20 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:20 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:20 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:20 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:20 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:20 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:20 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:20 
+2025-06-29 15:17:20 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:20   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:20 Stacktrace:
+2025-06-29 15:17:20 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:20 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:20 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:20 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:20 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:20 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:20 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:20 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:20 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:20 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:20 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:20 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:20 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:20 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:20 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:20 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:20 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:20 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:20 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:20 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:20 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:20 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:20 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:20 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:20 
+2025-06-29 15:17:20 ❌ Skipping: missing one or more required fields: {'title': "U.S. Polo Assn. Men's Striped Casual Shirt", 'image_url': 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR0jajzemIi-JGdZsXQv_3RiVs5hiZFwOpjlrKb27SxCHe1739YtB8IK9sofhQMTQ1y0OpLgfDxBt1wVcYeOgA2k--3VnTjz3rLbvVJoOlqvdudN_nXoIUR', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:20 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:23 🖱️ Clicked product card 11
+2025-06-29 15:17:23 ✅ Sidebar appeared for product 11
+2025-06-29 15:17:23 [Extract] Title: 'Arrow Sport Men's Vertical Striped Manhattan Slim Fit Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:23 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTruCKwlVkzgnbz2PKUgqRQeSTxk8OVRMyHUcnA0icUxyAO0K3wjYXFlpZtgkAkx102VO1rBTNgGHHg3Po3A8pcZqJ-44qfFTW4CnyVGGOFleIBCn74jyi7' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:23 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:23   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:23 Stacktrace:
+2025-06-29 15:17:23 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:23 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:23 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:23 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:23 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:23 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:23 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:23 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:23 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:23 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:23 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:23 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:23 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:23 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:23 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:23 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:23 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:23 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:23 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:23 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:23 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:23 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:23 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:23 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:23 
+2025-06-29 15:17:23 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:23   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:23 Stacktrace:
+2025-06-29 15:17:23 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:23 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:23 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:23 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:23 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:23 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:23 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:23 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:23 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:23 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:23 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:23 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:23 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:23 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:23 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:23 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:23 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:23 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:23 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:23 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:23 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:23 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:23 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:23 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:23 
+2025-06-29 15:17:23 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:23   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:23 Stacktrace:
+2025-06-29 15:17:23 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:23 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:23 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:23 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:23 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:23 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:23 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:23 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:23 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:23 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:23 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:23 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:23 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:23 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:23 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:23 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:23 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:23 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:23 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:23 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:23 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:23 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:23 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:23 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:23 
+2025-06-29 15:17:23 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:23   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:23 Stacktrace:
+2025-06-29 15:17:23 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:23 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:23 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:23 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:23 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:23 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:23 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:23 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:23 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:23 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:23 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:23 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:23 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:23 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:23 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:23 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:23 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:23 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:23 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:23 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:23 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:23 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:23 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:23 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:23 
+2025-06-29 15:17:23 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:23   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:23 Stacktrace:
+2025-06-29 15:17:23 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:23 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:23 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:23 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:23 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:23 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:23 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:23 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:23 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:23 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:23 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:23 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:23 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:23 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:23 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:23 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:23 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:23 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:23 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:23 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:23 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:23 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:23 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:23 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:23 
+2025-06-29 15:17:23 ❌ Skipping: missing one or more required fields: {'title': "Arrow Sport Men's Vertical Striped Manhattan Slim Fit Shirt", 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTruCKwlVkzgnbz2PKUgqRQeSTxk8OVRMyHUcnA0icUxyAO0K3wjYXFlpZtgkAkx102VO1rBTNgGHHg3Po3A8pcZqJ-44qfFTW4CnyVGGOFleIBCn74jyi7', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:23 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:26 🖱️ Clicked product card 12
+2025-06-29 15:17:27 ✅ Sidebar appeared for product 12
+2025-06-29 15:17:27 [Extract] Title: 'The Roadster Lifestyle Co. Men's Premium Vertical Striped Oversized Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:27 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQPqfUIMmO5g_aeA46htrIG3qhLhKerqyIxpqVn9RsMk8ky2JzL8vJpi1pRjSAwfd3qmBkPMZD0tKrXFzotPBYddyQrorrUFFOA-ypC0jPn4ML7nyzSQ37qTg' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:27 [Extract] Buy Now URL: 'http://www.myntra.com/Shirts/Roadster/The-Roadster-Lifestyle-Co-Men-Premium-Vertical-Striped-Cotton-Oversized-Casual-Shirt/30941976/buy' (selector: div.XzuhHf a)
+2025-06-29 15:17:27 [Extract] Price: '₹849' (selector: div.GBgquf.JIep9e span[aria-label^="Current price"])
+2025-06-29 15:17:27 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:27   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:27 Stacktrace:
+2025-06-29 15:17:27 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:27 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:27 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:27 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:27 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:27 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:27 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:27 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:27 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:27 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:27 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:27 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:27 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:27 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:27 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:27 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:27 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:27 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:27 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:27 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:27 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:27 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:27 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:27 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:27 
+2025-06-29 15:17:27 ✅ Extracted complete product 1 info from sidebar
+2025-06-29 15:17:30 🖱️ Clicked product card 13
+2025-06-29 15:17:30 ✅ Sidebar appeared for product 13
+2025-06-29 15:17:30 [Extract] Title: 'Arrow Men's Vertical Striped Slim Fit Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:31 [Extract] Image URL not found with selector img.KfAt4d[jsname="figiqf"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Image URL not found with selector img.FsH7wb.wtYWhc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:31   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:31 Stacktrace:
+2025-06-29 15:17:31 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:31 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:31 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:31 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:31 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:31 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:31 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:31 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:31 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:31 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:31 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:31 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:31 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:31 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:31 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:31 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:31 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:31 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:31 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:31 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:31 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:31 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:31 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:31 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:31 
+2025-06-29 15:17:31 ❌ Skipping: missing one or more required fields: {'title': "Arrow Men's Vertical Striped Slim Fit Shirt", 'image_url': '', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:31 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:34 🖱️ Clicked product card 14
+2025-06-29 15:17:34 ✅ Sidebar appeared for product 14
+2025-06-29 15:17:34 [Extract] Title: 'Indian Terrain Men's Classic Fit Vertical Striped Spread Collar Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:34 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQWGjMVIPnv85c_Q1B6r8WLKyKFk1lCnLOab1W7mM8yBmifaHO4ruTXMZDUVEDx13zF2D578JWCnQ0-oGbV_fufEdJe8xQpoH5avpv0Ze6KHK2hdEo_mOtc' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:34 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:34   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:34 Stacktrace:
+2025-06-29 15:17:34 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:34 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:34 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:34 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:34 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:34 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:34 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:34 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:34 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:34 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:34 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:34 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:34 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:34 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:34 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:34 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:34 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:34 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:34 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:34 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:34 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:34 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:34 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:34 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:34 
+2025-06-29 15:17:34 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:34   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:34 Stacktrace:
+2025-06-29 15:17:34 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:34 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:34 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:34 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:34 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:34 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:34 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:34 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:34 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:34 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:34 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:34 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:34 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:34 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:34 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:34 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:34 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:34 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:34 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:34 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:34 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:34 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:34 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:34 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:34 
+2025-06-29 15:17:35 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:35   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:35 Stacktrace:
+2025-06-29 15:17:35 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:35 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:35 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:35 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:35 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:35 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:35 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:35 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:35 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:35 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:35 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:35 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:35 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:35 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:35 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:35 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:35 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:35 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:35 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:35 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:35 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:35 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:35 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:35 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:35 
+2025-06-29 15:17:35 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:35   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:35 Stacktrace:
+2025-06-29 15:17:35 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:35 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:35 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:35 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:35 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:35 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:35 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:35 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:35 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:35 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:35 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:35 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:35 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:35 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:35 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:35 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:35 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:35 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:35 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:35 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:35 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:35 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:35 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:35 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:35 
+2025-06-29 15:17:35 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:35   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:35 Stacktrace:
+2025-06-29 15:17:35 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:35 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:35 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:35 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:35 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:35 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:35 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:35 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:35 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:35 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:35 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:35 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:35 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:35 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:35 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:35 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:35 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:35 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:35 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:35 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:35 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:35 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:35 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:35 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:35 
+2025-06-29 15:17:35 ❌ Skipping: missing one or more required fields: {'title': "Indian Terrain Men's Classic Fit Vertical Striped Spread Collar Casual Shirt", 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQWGjMVIPnv85c_Q1B6r8WLKyKFk1lCnLOab1W7mM8yBmifaHO4ruTXMZDUVEDx13zF2D578JWCnQ0-oGbV_fufEdJe8xQpoH5avpv0Ze6KHK2hdEo_mOtc', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:35 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:38 🖱️ Clicked product card 15
+2025-06-29 15:17:38 ✅ Sidebar appeared for product 15
+2025-06-29 15:17:38 [Extract] Title: 'Myntra Powerlook Vertical Striped Spread Collar Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:38 [Extract] Image URL: 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_WzPrRPzB0VX6srx2pQvGsrW3x57anFzkzliW11WGwdndGvbzyAEVuTD59shQY5BPLWVhGMimhxP6ogMRAg35odFt2oZJjxa3LWHLtd0' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:38 [Extract] Buy Now URL: 'http://www.myntra.com/Shirts/Powerlook/Powerlook-Vertical-Striped-Spread-Collar-Shirt/34221220/buy' (selector: div.XzuhHf a)
+2025-06-29 15:17:38 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:38   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:38 Stacktrace:
+2025-06-29 15:17:38 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:38 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:38 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:38 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:38 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:38 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:38 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:38 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:38 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:38 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:38 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:38 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:38 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:38 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:38 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:38 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:38 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:38 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:38 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:38 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:38 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:38 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:38 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:38 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:38 
+2025-06-29 15:17:38 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:38   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:38 Stacktrace:
+2025-06-29 15:17:38 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:38 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:38 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:38 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:38 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:38 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:38 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:38 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:38 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:38 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:38 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:38 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:38 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:38 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:38 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:38 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:38 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:38 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:38 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:38 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:38 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:38 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:38 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:38 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:38 
+2025-06-29 15:17:39 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:39   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:39 Stacktrace:
+2025-06-29 15:17:39 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:39 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:39 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:39 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:39 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:39 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:39 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:39 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:39 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:39 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:39 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:39 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:39 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:39 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:39 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:39 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:39 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:39 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:39 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:39 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:39 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:39 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:39 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:39 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:39 
+2025-06-29 15:17:39 ❌ Skipping: missing one or more required fields: {'title': 'Myntra Powerlook Vertical Striped Spread Collar Shirt', 'image_url': 'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR_WzPrRPzB0VX6srx2pQvGsrW3x57anFzkzliW11WGwdndGvbzyAEVuTD59shQY5BPLWVhGMimhxP6ogMRAg35odFt2oZJjxa3LWHLtd0', 'buy_now_url': 'http://www.myntra.com/Shirts/Powerlook/Powerlook-Vertical-Striped-Spread-Collar-Shirt/34221220/buy', 'price': '', 'merchant': '', 'url': 'http://www.myntra.com/Shirts/Powerlook/Powerlook-Vertical-Striped-Spread-Collar-Shirt/34221220/buy'}
+2025-06-29 15:17:39 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:42 🖱️ Clicked product card 16
+2025-06-29 15:17:42 ✅ Sidebar appeared for product 16
+2025-06-29 15:17:42 [Extract] Title: 'Flying Machine Striped Regular Fit Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:42 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRMGENsAGXOq9rKBYy9bXjY13itB_M_qzq_Ns3C5BcWzSswHh4prTXl4upzO5nu_Mbmb7fxDInDdE_BhS42gnznZCXPDaor9hnhj4CrN3JrhJvm0YgrApCk' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:42 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:42   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:42 Stacktrace:
+2025-06-29 15:17:42 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:42 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:42 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:42 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:42 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:42 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:42 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:42 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:42 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:42 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:42 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:42 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:42 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:42 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:42 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:42 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:42 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:42 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:42 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:42 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:42 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:42 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:42 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:42 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:42 
+2025-06-29 15:17:42 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:42   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:42 Stacktrace:
+2025-06-29 15:17:42 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:42 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:42 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:42 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:42 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:42 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:42 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:42 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:42 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:42 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:42 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:42 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:42 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:42 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:42 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:42 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:42 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:42 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:42 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:42 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:42 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:42 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:42 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:42 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:42 
+2025-06-29 15:17:43 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:43   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:43 Stacktrace:
+2025-06-29 15:17:43 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:43 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:43 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:43 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:43 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:43 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:43 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:43 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:43 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:43 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:43 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:43 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:43 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:43 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:43 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:43 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:43 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:43 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:43 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:43 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:43 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:43 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:43 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:43 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:43 
+2025-06-29 15:17:43 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:43   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:43 Stacktrace:
+2025-06-29 15:17:43 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:43 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:43 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:43 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:43 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:43 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:43 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:43 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:43 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:43 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:43 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:43 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:43 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:43 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:43 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:43 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:43 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:43 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:43 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:43 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:43 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:43 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:43 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:43 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:43 
+2025-06-29 15:17:43 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:43   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:43 Stacktrace:
+2025-06-29 15:17:43 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:43 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:43 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:43 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:43 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:43 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:43 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:43 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:43 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:43 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:43 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:43 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:43 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:43 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:43 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:43 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:43 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:43 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:43 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:43 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:43 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:43 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:43 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:43 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:43 
+2025-06-29 15:17:43 ❌ Skipping: missing one or more required fields: {'title': 'Flying Machine Striped Regular Fit Shirt', 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRMGENsAGXOq9rKBYy9bXjY13itB_M_qzq_Ns3C5BcWzSswHh4prTXl4upzO5nu_Mbmb7fxDInDdE_BhS42gnznZCXPDaor9hnhj4CrN3JrhJvm0YgrApCk', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:43 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:45 🖱️ Clicked product card 17
+2025-06-29 15:17:45 ✅ Sidebar appeared for product 17
+2025-06-29 15:17:45 [Extract] Title: 'Mast & Harbour Men's Standard Opaque Striped Casual Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:45 [Extract] Image URL: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQr8oNSb67-4n7Bs-DV4y17p9d84K2b_bJn11nyX2LrWcOBOU662Gz24kVMxeRl6xX5PBXkqk6lGsmMzr7kMA2w9GPwGLgke3L3I0HRmRTY' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:46 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:46 Stacktrace:
+2025-06-29 15:17:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:46 
+2025-06-29 15:17:46 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:46 Stacktrace:
+2025-06-29 15:17:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:46 
+2025-06-29 15:17:46 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:46 Stacktrace:
+2025-06-29 15:17:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:46 
+2025-06-29 15:17:46 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:46 Stacktrace:
+2025-06-29 15:17:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:46 
+2025-06-29 15:17:46 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:46   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:46 Stacktrace:
+2025-06-29 15:17:46 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:46 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:46 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:46 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:46 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:46 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:46 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:46 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:46 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:46 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:46 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:46 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:46 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:46 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:46 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:46 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:46 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:46 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:46 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:46 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:46 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:46 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:46 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:46 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:46 
+2025-06-29 15:17:46 ❌ Skipping: missing one or more required fields: {'title': "Mast & Harbour Men's Standard Opaque Striped Casual Shirt", 'image_url': 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQr8oNSb67-4n7Bs-DV4y17p9d84K2b_bJn11nyX2LrWcOBOU662Gz24kVMxeRl6xX5PBXkqk6lGsmMzr7kMA2w9GPwGLgke3L3I0HRmRTY', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:46 ❌ Incomplete product info, skipping. Data: None
+2025-06-29 15:17:49 🖱️ Clicked product card 18
+2025-06-29 15:17:49 ✅ Sidebar appeared for product 18
+2025-06-29 15:17:49 [Extract] Title: 'Mufti Men's Stripe Casual Cotton Shirt' (selector: div.bi9tFe.PZPZlf.sjVJQd[jsname="ZOnBqe"])
+2025-06-29 15:17:49 [Extract] Image URL: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTuTx9ecQvNtu5fB7h5xnLZQF-pSP3bPNM3CtdoLXl9TENWD5FtKGITMnVTQzkBOMYlcO_f6JeNZhTN-9LK9EpV14t7VbvcccFHGfmLINVqs8PVWXq4CXur' (selector: img.KfAt4d[jsname="figiqf"])
+2025-06-29 15:17:50 [Extract] Buy Now URL not found with selector div.XzuhHf a: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:50   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:50 Stacktrace:
+2025-06-29 15:17:50 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:50 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:50 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:50 #3 0x5a7ee93a22c7 <unknown>
+2025-06-29 15:17:50 #4 0x5a7ee9436fde <unknown>
+2025-06-29 15:17:50 #5 0x5a7ee94101a2 <unknown>
+2025-06-29 15:17:50 #6 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:50 #7 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:50 #8 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:50 #9 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:50 #10 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:50 #11 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:50 #12 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:50 #13 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:50 #14 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:50 #15 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:50 #16 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:50 #17 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:50 #18 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:50 
+2025-06-29 15:17:50 [Extract] Buy Now URL not found with selector div.sCXXQd a.uchJRc: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:50   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:50 Stacktrace:
+2025-06-29 15:17:50 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:50 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:50 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:50 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:50 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:50 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:50 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:50 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:50 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:50 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:50 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:50 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:50 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:50 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:50 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:50 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:50 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:50 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:50 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:50 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:50 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:50 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:50 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:50 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:50 
+2025-06-29 15:17:50 [Extract] Price not found with selector div.GBgquf.JIep9e span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:50   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:50 Stacktrace:
+2025-06-29 15:17:50 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:50 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:50 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:50 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:50 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:50 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:50 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:50 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:50 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:50 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:50 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:50 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:50 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:50 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:50 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:50 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:50 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:50 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:50 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:50 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:50 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:50 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:50 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:50 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:50 
+2025-06-29 15:17:50 [Extract] Price not found with selector span[aria-label^="Current price"]: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:50   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:50 Stacktrace:
+2025-06-29 15:17:50 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:50 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:50 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:50 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:50 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:50 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:50 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:50 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:50 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:50 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:50 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:50 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:50 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:50 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:50 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:50 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:50 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:50 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:50 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:50 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:50 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:50 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:50 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:50 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:50 
+2025-06-29 15:17:50 [Extract] Merchant not found: Message: stale element reference: stale element not found in the current frame
+2025-06-29 15:17:50   (Session info: chrome=138.0.7204.49); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+2025-06-29 15:17:50 Stacktrace:
+2025-06-29 15:17:50 #0 0x5a7ee98ee26a <unknown>
+2025-06-29 15:17:50 #1 0x5a7ee9398ab0 <unknown>
+2025-06-29 15:17:50 #2 0x5a7ee939f748 <unknown>
+2025-06-29 15:17:50 #3 0x5a7ee93a1fe8 <unknown>
+2025-06-29 15:17:50 #4 0x5a7ee93a2073 <unknown>
+2025-06-29 15:17:50 #5 0x5a7ee93ea125 <unknown>
+2025-06-29 15:17:50 #6 0x5a7ee93ea8e1 <unknown>
+2025-06-29 15:17:50 #7 0x5a7ee93de396 <unknown>
+2025-06-29 15:17:50 #8 0x5a7ee94101cd <unknown>
+2025-06-29 15:17:50 #9 0x5a7ee93de28a <unknown>
+2025-06-29 15:17:50 #10 0x5a7ee941036e <unknown>
+2025-06-29 15:17:50 #11 0x5a7ee9435fee <unknown>
+2025-06-29 15:17:50 #12 0x5a7ee940ff73 <unknown>
+2025-06-29 15:17:50 #13 0x5a7ee93dcaeb <unknown>
+2025-06-29 15:17:50 #14 0x5a7ee93dd751 <unknown>
+2025-06-29 15:17:50 #15 0x5a7ee98b2b7b <unknown>
+2025-06-29 15:17:50 #16 0x5a7ee98b6959 <unknown>
+2025-06-29 15:17:50 #17 0x5a7ee9899959 <unknown>
+2025-06-29 15:17:50 #18 0x5a7ee98b7518 <unknown>
+2025-06-29 15:17:50 #19 0x5a7ee987e10f <unknown>
+2025-06-29 15:17:50 #20 0x5a7ee98db918 <unknown>
+2025-06-29 15:17:50 #21 0x5a7ee98dbaf6 <unknown>
+2025-06-29 15:17:50 #22 0x5a7ee98ed586 <unknown>
+2025-06-29 15:17:50 #23 0x7e3a76bbf1f5 <unknown>
+2025-06-29 15:17:50 
+2025-06-29 15:17:50 ❌ Skipping: missing one or more required fields: {'title': "Mufti Men's Stripe Casual Cotton Shirt", 'image_url': 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTuTx9ecQvNtu5fB7h5xnLZQF-pSP3bPNM3CtdoLXl9TENWD5FtKGITMnVTQzkBOMYlcO_f6JeNZhTN-9LK9EpV14t7VbvcccFHGfmLINVqs8PVWXq4CXur', 'buy_now_url': '', 'price': '', 'merchant': ''}
+2025-06-29 15:17:50 ❌ Incomplete product info, skipping. Data: None
