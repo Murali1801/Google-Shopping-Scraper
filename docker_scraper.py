@@ -18,6 +18,32 @@ import shutil
 import os
 import re
 
+def find_search_bar(driver, timeout=7, log_on_fail=True):
+    selectors = [
+        (By.CSS_SELECTOR, 'textarea.gLFyf'),
+        (By.CSS_SELECTOR, 'input[name="q"]'),
+        (By.CSS_SELECTOR, 'input[aria-label="Search"]'),
+        (By.CSS_SELECTOR, 'input[type="text"]'),
+    ]
+    for by, sel in selectors:
+        try:
+            elem = WebDriverWait(driver, timeout).until(
+                EC.presence_of_element_located((by, sel))
+            )
+            if elem:
+                return elem
+        except Exception:
+            continue
+    if log_on_fail:
+        try:
+            ts = int(time.time())
+            with open(f'searchbar_not_found_{ts}.html', 'w', encoding='utf-8') as f:
+                f.write(driver.page_source)
+        except Exception as e:
+            print(f"[DEBUG] Could not write page source: {e}")
+    print("[ERROR] Could not find search bar using any known selector.")
+    return None
+
 class GoogleShoppingScraper:
     def __init__(self):
         self.driver = None
