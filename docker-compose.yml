@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  scraper:
+    build: .
+    container_name: google-shopping-scraper
+    environment:
+      - LAMBDATEST_USERNAME=${LAMBDATEST_USERNAME}
+      - LAMBDATEST_ACCESS_KEY=${LAMBDATEST_ACCESS_KEY}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    networks:
+      - scraper-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8080/health', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  scraper-network:
+    driver: bridge
+
+volumes:
+  data:
+  logs: 
