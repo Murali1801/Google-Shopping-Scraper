@@ -21,5 +21,9 @@ def scrape():
     except Exception as e:
         return jsonify({"success": False, "error": str(e)}), 500
 
+@app.route('/', methods=['GET'])
+def home():
+    return "Google Shopping Scraper API is running!", 200
+
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080) 

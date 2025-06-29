@@ -104,4 +104,4 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD python -c "import requests; requests.get('http://localhost:8080/health', timeout=5)" || exit 1
 
 # Default command with Xvfb for virtual display
-CMD ["python", "app.py"] 
+CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"] 
