@@ -696,19 +696,29 @@ class GoogleShoppingScraper:
 
 def run_scraper(params):
     """
-    Run the Google Shopping scraping process with the given params.
-    Params example: {"queries": ["chelsea boots for men", ...]}
-    Returns: list of product dicts (or dict by category)
+    Accepts params like:
+    {
+        "top_wear_search_engine_query": "...",
+        "bottom_wear_search_engine_query": "...",
+        "shoes_search_engine_query": "...",
+        "color_recommendations_search_engine_query": "..."
+    }
+    Returns: dict of results by category
     """
-    # ... existing imports ...
-    # ... existing class definitions ...
-    # You may need to adapt the code below to fit your actual scraping logic
-    queries = params.get("queries")
+    categories = [
+        "top_wear_search_engine_query",
+        "bottom_wear_search_engine_query",
+        "shoes_search_engine_query",
+        "color_recommendations_search_engine_query"
+    ]
+    queries = {cat: params.get(cat) for cat in categories if params.get(cat)}
     if not queries:
-        raise ValueError("Missing 'queries' in input params")
-    # Instantiate your scraper class and run the scraping process
-    scraper = GoogleShoppingScraper()  # adapt as needed
-    results = scraper.run_scraper()  # adapt as needed
+        raise ValueError("No valid search queries provided in input params")
+    results = {}
+    for cat, query in queries.items():
+        # You may need to adapt this to your scraper's API
+        scraper = GoogleShoppingScraper()  # adapt as needed
+        results[cat] = scraper.scrape_category(cat, query)  # adapt as needed
     return results
 
 def main():
