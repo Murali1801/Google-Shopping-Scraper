@@ -254,4 +254,34 @@ spec:
 
 ## 📄 License
 
-This project is for educational purposes only. Please respect website terms of service and robots.txt files. 
+This project is for educational purposes only. Please respect website terms of service and robots.txt files.
+
+# 🟢 Deploying to Render
+
+You can deploy this Dockerized Flask API (with Selenium/Chrome) to [Render](https://render.com) for cloud access.
+
+## 1. Push to GitHub
+- Commit all code (including Dockerfile, app.py, requirements.txt, etc.) to a GitHub repo.
+
+## 2. Create a Web Service on Render
+- Go to https://dashboard.render.com/
+- Click **New +** > **Web Service**
+- Connect your GitHub repo and select this project.
+- **Environment:** Docker
+- **Build Command:** *(leave blank)*
+- **Start Command:** *(leave blank)*
+- **Port:** 5000 (Flask default, already exposed in Dockerfile)
+- **Instance Type:** Starter is fine for testing, but Selenium/Chrome may require a Standard or higher plan for production.
+
+## 3. Health Check
+- Render will use the `/health` endpoint (already provided by app.py) to check service status.
+
+## 4. Test Your API
+- After deploy, your API will be at `https://your-app.onrender.com/scrape`
+- Use Postman or `curl` to POST your input JSON.
+- Health endpoint: `https://your-app.onrender.com/health`
+
+## 5. Notes
+- **Resource Usage:** Headless Chrome is resource-intensive. If you see crashes or timeouts, upgrade your Render instance.
+- **Timeouts:** Free/Starter plans have request timeouts (max 15 min). Long scrapes may be cut off.
+- **Local Testing:** Always test locally with Docker before deploying. 
