@@ -17,88 +17,70 @@
             padding: 20px;
             background: #fff;
             border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+            box-shadow: 0 2px 16px rgba(0,0,0,0.08);
         }
         h1 {
             text-align: center;
-            font-size: 2.5rem;
+            color: #333;
             margin-bottom: 32px;
-            color: #222;
         }
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
             gap: 32px;
         }
-        .product-card {
-            background: #fafbfc;
+        .product {
+            background: #fafafa;
             border-radius: 10px;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
-            padding: 24px 18px 18px 18px;
+            box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+            padding: 18px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            transition: box-shadow 0.2s, transform 0.2s;
-            min-height: 420px;
+            transition: box-shadow 0.2s;
         }
-        .product-card:hover {
-            box-shadow: 0 8px 32px rgba(0,0,0,0.13);
-            transform: translateY(-4px) scale(1.02);
+        .product:hover {
+            box-shadow: 0 4px 18px rgba(0,0,0,0.13);
         }
-        .product-card img {
-            width: 180px;
-            height: 180px;
+        .product img {
+            max-width: 180px;
+            max-height: 180px;
             object-fit: contain;
-            border-radius: 8px;
-            background: #f0f0f0;
-            margin-bottom: 18px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            background: #fff;
         }
-        .product-title {
+        .title {
             font-size: 1.1rem;
             font-weight: 600;
             color: #222;
-            text-align: center;
             margin-bottom: 10px;
-            min-height: 48px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            text-align: center;
         }
-        .product-price {
-            font-size: 1.15rem;
-            color: #1a8917;
+        .price {
+            font-size: 1.05rem;
+            color: #0a7d2c;
             font-weight: 500;
-            margin-bottom: 18px;
+            margin-bottom: 16px;
         }
         .buy-btn {
             display: inline-block;
-            padding: 10px 28px;
-            background: linear-gradient(90deg, #1a8917 60%, #0f5132 100%);
+            padding: 10px 22px;
+            background: #4285f4;
             color: #fff;
             border: none;
-            border-radius: 6px;
+            border-radius: 5px;
             font-size: 1rem;
-            font-weight: 600;
+            font-weight: 500;
             text-decoration: none;
-            box-shadow: 0 2px 8px rgba(26,137,23,0.08);
-            transition: background 0.2s, box-shadow 0.2s;
+            transition: background 0.18s;
         }
         .buy-btn:hover {
-            background: linear-gradient(90deg, #0f5132 60%, #1a8917 100%);
-            box-shadow: 0 4px 16px rgba(26,137,23,0.18);
+            background: #1967d2;
         }
         @media (max-width: 600px) {
-            .container {
-                padding: 8px;
-            }
-            .product-card {
-                padding: 14px 6px 12px 6px;
-                min-height: 340px;
-            }
-            .product-card img {
-                width: 120px;
-                height: 120px;
-            }
+            .container { padding: 8px; }
+            .grid { gap: 16px; }
         }
     </style>
 </head>

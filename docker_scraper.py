@@ -18,32 +18,6 @@ import shutil
 import os
 import re
 
-def find_search_bar(driver, timeout=7, log_on_fail=True):
-    selectors = [
-        (By.CSS_SELECTOR, 'textarea.gLFyf'),
-        (By.CSS_SELECTOR, 'input[name="q"]'),
-        (By.CSS_SELECTOR, 'input[aria-label="Search"]'),
-        (By.CSS_SELECTOR, 'input[type="text"]'),
-    ]
-    for by, sel in selectors:
-        try:
-            elem = WebDriverWait(driver, timeout).until(
-                EC.presence_of_element_located((by, sel))
-            )
-            if elem:
-                return elem
-        except Exception:
-            continue
-    if log_on_fail:
-        try:
-            ts = int(time.time())
-            with open(f'searchbar_not_found_{ts}.html', 'w', encoding='utf-8') as f:
-                f.write(driver.page_source)
-        except Exception as e:
-            print(f"[DEBUG] Could not write page source: {e}")
-    print("[ERROR] Could not find search bar using any known selector.")
-    return None
-
 class GoogleShoppingScraper:
     def __init__(self):
         self.driver = None
@@ -174,13 +148,13 @@ class GoogleShoppingScraper:
                 print(f"🔄 Typing new query in search bar: {query}")
                 try:
                     # Use the <textarea.gLFyf> as the search bar after the first query
-                    search_bar = find_search_bar(self.driver)
-                    if not search_bar:
-                        raise Exception("Could not find search bar")
-                    search_bar.clear()
-                    self.simulate_typing(search_bar, query)
+                    search_box = WebDriverWait(self.driver, 10).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR, 'textarea.gLFyf'))
+                    )
+                    search_box.clear()
+                    self.simulate_typing(search_box, query)
                     self.human_like_delay(1, 2)
-                    search_bar.send_keys(Keys.RETURN)
+                    search_box.send_keys(Keys.RETURN)
                     self.human_like_delay(3, 6)
                 except Exception as e:
                     print(f"⚠️ Could not find or use search bar for new query: {e}")
@@ -655,12 +629,9 @@ class GoogleShoppingScraper:
         
         return formatted_results
     
-    def run_scraper(self, input_file: str = "input.json") -> Dict:
-        """Main method to run the scraper"""
+    def run_scraper_from_dict(self, input_data: dict) -> Dict:
+        """Run the scraper using input data as a dictionary (for API use)"""
         try:
-            # Load input data
-            with open(input_file, 'r') as f:
-                input_data = json.load(f)
             data = json.loads(input_data['data'])
             queries = {
                 'top_wear': data['top_wear_search_engine_query'],
@@ -668,7 +639,7 @@ class GoogleShoppingScraper:
                 'shoes': data['shoes_search_engine_query'],
                 'color_recommendations': data['color_recommendations_search_engine_query']
             }
-            print("🚀 Starting Google Shopping Scraper with Undetected Chrome")
+            print("🚀 Starting Google Shopping Scraper with Undetected Chrome (API mode)")
             print(f"📋 Queries to scrape: {list(queries.keys())}")
             if not self.setup_driver():
                 return {"error": "Failed to setup WebDriver"}
@@ -704,6 +675,16 @@ class GoogleShoppingScraper:
                 self.driver.quit()
                 print("🖥 WebDriver closed")
 
+    def run_scraper(self, input_file: str = "input.json") -> Dict:
+        """Main method to run the scraper (file-based, for CLI)"""
+        try:
+            with open(input_file, 'r') as f:
+                input_data = json.load(f)
+            return self.run_scraper_from_dict(input_data)
+        except Exception as e:
+            print(f"❌ Error in main scraper: {str(e)}")
+            return {"error": str(e)}
+
     def get_xpath(self, element):
         # Helper to get XPath of a WebElement for WebDriverWait
         def get_element_xpath(el):
@@ -719,33 +700,6 @@ class GoogleShoppingScraper:
             return get_element_xpath(element)
         except:
             return '.'
-
-def run_scraper(params):
-    """
-    Accepts params like:
-    {
-        "top_wear_search_engine_query": "...",
-        "bottom_wear_search_engine_query": "...",
-        "shoes_search_engine_query": "...",
-        "color_recommendations_search_engine_query": "..."
-    }
-    Returns: dict of results by category
-    """
-    categories = [
-        "top_wear_search_engine_query",
-        "bottom_wear_search_engine_query",
-        "shoes_search_engine_query",
-        "color_recommendations_search_engine_query"
-    ]
-    queries = {cat: params.get(cat) for cat in categories if params.get(cat)}
-    if not queries:
-        raise ValueError("No valid search queries provided in input params")
-    results = {}
-    for cat, query in queries.items():
-        # You may need to adapt this to your scraper's API
-        scraper = GoogleShoppingScraper()  # adapt as needed
-        results[cat] = scraper.scrape_category(cat, query)  # adapt as needed
-    return results
 
 def main():
     """Main function to run the scraper"""

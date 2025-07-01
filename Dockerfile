@@ -92,16 +92,16 @@ RUN useradd -m -u 1000 scraper \
 # Switch to non-root user
 USER scraper
 
-# Expose port (if needed for web interface)
-EXPOSE 8080
+# Expose port for Flask API
+EXPOSE 5000
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV DISPLAY=:99
 
-# Health check
+# Health check for Flask API
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-    CMD python -c "import requests; requests.get('http://localhost:8080/health', timeout=5)" || exit 1
+    CMD python -c "import requests; requests.get('http://localhost:5000/health', timeout=5)" || exit 1
 
-# Default command with Xvfb for virtual display
-CMD ["gunicorn", "-b", "0.0.0.0:8080", "app:app"] 
+# Default command with Xvfb for virtual display and Flask API
+CMD ["sh", "-c", "Xvfb :99 -screen 0 1920x1080x24 > /dev/null 2>&1 & python app.py"] 
