@@ -25,7 +25,7 @@ class GoogleShoppingScraper:
         self.results = {}
         
     def setup_driver(self):
-        """Setup undetected Chrome WebDriver with advanced anti-detection measures"""
+        """Setup undetected Chrome WebDriver with advanced anti-detection measures and optional proxy support"""
         try:
             # Copy ChromeDriver to a writable location
             shutil.copy("/usr/bin/chromedriver", "/tmp/chromedriver")
@@ -36,7 +36,11 @@ class GoogleShoppingScraper:
             chrome_options.add_argument("--no-sandbox")
             chrome_options.add_argument("--disable-dev-shm-usage")
             chrome_options.add_argument("--disable-gpu")
-            chrome_options.add_argument("--window-size=1920,1080")
+            # Randomize window size
+            width = random.randint(1200, 1920)
+            height = random.randint(800, 1200)
+            chrome_options.add_argument(f"--window-size={width},{height}")
+            print(f"🪟 Random window size: {width}x{height}")
             chrome_options.add_argument("--disable-extensions")
             chrome_options.add_argument("--disable-plugins")
             chrome_options.add_argument("--disable-web-security")
@@ -62,24 +66,45 @@ class GoogleShoppingScraper:
             chrome_options.add_argument("--disable-component-update")
             chrome_options.add_argument("--disable-features=TranslateUI")
             chrome_options.add_argument("--disable-features=BlinkGenPropertyTrees")
-            
+            # Randomize language
+            lang = random.choice(["en-US,en;q=0.9", "en-GB,en;q=0.8", "en-IN,en;q=0.7"])
+            chrome_options.add_argument(f"--lang={lang}")
+            print(f"🌐 Random language: {lang}")
             # Set Chrome binary location explicitly for Docker
             chrome_options.binary_location = "/opt/chrome-linux64/chrome"
-            
+            # Randomize user-agent
+            ua = self.ua.random
+            chrome_options.add_argument(f"--user-agent={ua}")
+            print(f"🕵️ Random user-agent: {ua}")
+            # Proxy support
+            proxy_url = os.environ.get("PROXY_URL")
+            if proxy_url:
+                chrome_options.add_argument(f"--proxy-server={proxy_url}")
+                print(f"🌐 Using proxy: {proxy_url}")
+            # Run in non-headless mode for more stealth (comment out if you want headless)
+            # chrome_options.add_argument("--headless=new")  # Commented out for stealth
+            print("🕶️ Running in non-headless mode for stealth")
             # Create driver with undetected-chromedriver
             self.driver = uc.Chrome(
                 driver_executable_path="/tmp/chromedriver",
                 options=chrome_options,
                 version_main=None  # Auto-detect Chrome version
             )
-            
+            # Stealth: override navigator.webdriver and other JS properties
+            self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+                "source": """
+                Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+                Object.defineProperty(navigator, 'languages', {get: () => ['en-US', 'en']});
+                Object.defineProperty(navigator, 'plugins', {get: () => [1,2,3,4,5]});
+                window.chrome = { runtime: {} };
+                """
+            })
+            print("🛡️ Applied JS stealth patches")
             # Set timeouts
-            self.driver.set_page_load_timeout(config.PAGE_LOAD_TIMEOUT)
-            self.driver.implicitly_wait(config.IMPLICIT_WAIT)
-            
-            print("✅ Undetected Chrome WebDriver setup successful")
+            self.driver.set_page_load_timeout(config.PAGE_LOAD_TIMEOUT * 2)  # Increase for cloud
+            self.driver.implicitly_wait(config.IMPLICIT_WAIT * 2)
+            print("✅ Undetected Chrome WebDriver setup successful (extra stealth)")
             return True
-            
         except Exception as e:
             print(f"❌ Failed to setup WebDriver: {str(e)}")
             traceback.print_exc()
